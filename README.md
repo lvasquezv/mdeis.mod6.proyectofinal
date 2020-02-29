@@ -1,11 +1,13 @@
 # mdeis.mod6.proyectofinal
 Caso de estudio implementado por el grupo para el modulo 6 Arquitectura de Software
 Nombre Caso de Estudio: 
- 
+ - 
+ Facturación y Pagos
 Integrantes de Grupo:
  - 
- -
- -
+ - Martha Valdés Padrón
+ - Johnny Felix Suri Mamani
+ - Luis Rolando Vasquez Velasquez
 
 Se tienen implementados por proyectos para separar la logica de cada modulo, por ello contamos con los siguientes proyectos:
  - LibEntidad: Proyecto que manejara la logica de la persistencia, ya sea Base de datos o como el caso que se implemento en archivos. Ademas define clase abstracta que deben implementar las entidades que se requiera usar. Contiene las siguientes clases en su raiz:
