@@ -16,6 +16,22 @@ namespace LibFacturacion
 
         public override string NombreEntidad => "FacturaItem";
 
+        public FacturaItem()
+        {
+            Factura = new Factura();
+            Producto = new Producto();
+            Cantidad = 0;
+            PrecioUnitario = 0;
+            MontoParcial = 0;
+        }
+        public FacturaItem(FacturaItem facturaItem)
+        {
+            cargar(facturaItem.obtenerDiccionario());
+        }
+        public FacturaItem(Dictionary<string, object> datos)
+        {
+            cargar(datos);
+        }
 
         public override Dictionary<string, object> obtenerDiccionario()
         {
@@ -35,15 +51,20 @@ namespace LibFacturacion
         {            
             Dictionary<string, object> dfactura = new Dictionary<string, object>();
             dfactura.Add("CodigoControl", datos["Factura"].ToString());
-            Factura = (Factura)GestorPersistencia.Persistencia().obtener(Factura.NombreEntidad, dfactura);
+            Factura = new Factura(((Dictionary<string, object>[])GestorPersistencia.Persistencia().obtener(Factura.NombreEntidad, dfactura).ToArray())[0]);
 
             Dictionary<string, object> dproducto = new Dictionary<string, object>();
             dproducto.Add("Codigo", int.Parse(datos["Producto"].ToString()));
-            Producto = (Producto)GestorPersistencia.Persistencia().obtener(Producto.NombreEntidad, dproducto);
+            Producto = new Producto(((Dictionary<string, object>[])GestorPersistencia.Persistencia().obtener(Producto.NombreEntidad, dproducto).ToArray())[0]);
 
             Cantidad = int.Parse(datos["Cantidad"].ToString());
             PrecioUnitario = float.Parse(datos["PrecioUnitario"].ToString());
             MontoParcial = float.Parse(datos["MontoParcial"].ToString());
+        }
+
+        public override Dictionary<string, object> obtenerDiccionarioPK()
+        {
+            throw new NotImplementedException();
         }
     }
 }

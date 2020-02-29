@@ -31,6 +31,25 @@ namespace LibFacturacion
 
         public override string NombreEntidad => "Factura";
 
+        public Factura()
+        {
+            CodigoControl = "";
+            Cliente = new Cliente();
+            Nro = -1;
+            NroAutorizacion = -1;
+            Fecha = DateTime.Now;
+            MontoTotal = 0;
+            Estado = LibEntidades.Constante._ESTADO_ACTIVO;
+            FormaDePago = new FormaDePago();
+        }
+        public Factura(Factura factura)
+        {
+            cargar(factura.obtenerDiccionario());
+        }
+        public Factura(Dictionary<string, object> datos)
+        {
+            cargar(datos);
+        }
 
         public override Dictionary<string, object> obtenerDiccionario()
         {
@@ -54,17 +73,24 @@ namespace LibFacturacion
         {
             Dictionary<string, object> dcliente = new Dictionary<string, object>();
             dcliente.Add("Nit", int.Parse(datos["Cliente"].ToString()));
-            Cliente = (Cliente)GestorPersistencia.Persistencia().obtener(Cliente.NombreEntidad, dcliente);
+            Cliente = new Cliente(((Dictionary<string, object>[])GestorPersistencia.Persistencia().obtener(Cliente.NombreEntidad, dcliente).ToArray())[0]);
 
             Dictionary<string, object> dformadepago = new Dictionary<string, object>();
             dformadepago.Add("Codigo", int.Parse(datos["FormaDePago"].ToString()));
-            FormaDePago = (FormaDePago)GestorPersistencia.Persistencia().obtener(FormaDePago.NombreEntidad, dformadepago);
+            FormaDePago = new FormaDePago(((Dictionary<string, object>[])GestorPersistencia.Persistencia().obtener(FormaDePago.NombreEntidad, dformadepago).ToArray())[0]);
 
             Nro = int.Parse(datos["Nro"].ToString());
             NroAutorizacion = double.Parse(datos["NroAutorizacion"].ToString());
             Fecha = DateTime.Parse(datos["Fecha"].ToString());
             MontoTotal = float.Parse(datos["MontoTotal"].ToString());
             Estado = datos["Estado"].ToString();
+        }
+
+        public override Dictionary<string, object> obtenerDiccionarioPK()
+        {
+            Dictionary<string, object> d = new Dictionary<string, object>();
+            d.Add("CodigoControl", CodigoControl);
+            return d;
         }
     }
 }

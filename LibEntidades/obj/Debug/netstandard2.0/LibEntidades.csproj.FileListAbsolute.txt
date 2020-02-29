@@ -8,7 +8,6 @@ C:\Users\USUARIO\source\repos\mdeis.mod6.proyecto\WebProyectoMod6MDEIS\LibEntida
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibEntidades\bin\Debug\netstandard2.0\LibEntidades.deps.json
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibEntidades\bin\Debug\netstandard2.0\LibEntidades.dll
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibEntidades\bin\Debug\netstandard2.0\LibEntidades.pdb
-C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibEntidades\obj\Debug\netstandard2.0\LibEntidades.csprojAssemblyReference.cache
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibEntidades\obj\Debug\netstandard2.0\LibEntidades.AssemblyInfoInputs.cache
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibEntidades\obj\Debug\netstandard2.0\LibEntidades.AssemblyInfo.cs
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibEntidades\obj\Debug\netstandard2.0\LibEntidades.dll

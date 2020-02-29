@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibFacturacion\\LibFacturacion.csproj": {}
+    "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibFacturacion\\LibFacturacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj": {
+    "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj",
         "projectName": "LibEntidades",
-        "projectPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibFacturacion\\LibFacturacion.csproj": {
+    "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibFacturacion\\LibFacturacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibFacturacion\\LibFacturacion.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibFacturacion\\LibFacturacion.csproj",
         "projectName": "LibFacturacion",
-        "projectPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibFacturacion\\LibFacturacion.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibFacturacion\\LibFacturacion.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibFacturacion\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibFacturacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -92,11 +92,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj"
+              "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj"
               },
-              "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\LibInventario.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\LibInventario.csproj"
+              "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\LibInventario.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\LibInventario.csproj"
               }
             }
           }
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\LibInventario.csproj": {
+    "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\LibInventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\LibInventario.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\LibInventario.csproj",
         "projectName": "LibInventario",
-        "projectPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\LibInventario.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\LibInventario.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibInventario\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -159,8 +159,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj"
+              "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj"
               }
             }
           }

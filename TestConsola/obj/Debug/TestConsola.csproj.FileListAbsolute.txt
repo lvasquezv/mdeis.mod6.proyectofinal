@@ -1,0 +1,15 @@
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\TestConsola.exe.config
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\TestConsola.exe
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\TestConsola.pdb
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\LibEntidades.dll
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\LibFacturacion.dll
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\LibInventario.dll
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\LibUtilidades.dll
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\LibEntidades.pdb
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\LibFacturacion.pdb
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\LibInventario.pdb
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\bin\Debug\LibUtilidades.pdb
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\obj\Debug\TestConsola.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\obj\Debug\TestConsola.csproj.CopyComplete
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\obj\Debug\TestConsola.exe
+C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\TestConsola\obj\Debug\TestConsola.pdb

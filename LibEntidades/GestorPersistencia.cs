@@ -1,6 +1,7 @@
 ﻿using LibEntidades.Persistencia;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace LibEntidades
@@ -17,7 +18,7 @@ namespace LibEntidades
         {
             if (_persistencia is null)
             {
-                _persistencia = new PersistenciaArchivo("c:/MDEIS/mod6/facturacion", false);
+                _persistencia = new PersistenciaArchivo("c:/MDEIS/mod6/facturacion");
             }
             return _persistencia;
         }

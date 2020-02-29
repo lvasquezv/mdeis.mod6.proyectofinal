@@ -9,7 +9,6 @@ C:\Users\USUARIO\source\repos\mdeis.mod6.proyecto\WebProyectoMod6MDEIS\LibUtilid
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibUtilidades\bin\Debug\netstandard2.0\LibUtilidades.deps.json
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibUtilidades\bin\Debug\netstandard2.0\LibUtilidades.dll
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibUtilidades\bin\Debug\netstandard2.0\LibUtilidades.pdb
-C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibUtilidades\obj\Debug\netstandard2.0\LibUtilidades.csprojAssemblyReference.cache
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibUtilidades\obj\Debug\netstandard2.0\LibUtilidades.AssemblyInfoInputs.cache
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibUtilidades\obj\Debug\netstandard2.0\LibUtilidades.AssemblyInfo.cs
 C:\Users\USUARIO\source\repos\lvasquezv\mdeis.mod6.proyectofinal\LibUtilidades\obj\Debug\netstandard2.0\LibUtilidades.dll

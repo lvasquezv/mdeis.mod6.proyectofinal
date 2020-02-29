@@ -23,11 +23,15 @@ namespace LibFacturacion
             Nombres = "Nuevo Cliente";
             Apellidos = "Sin Apellidos";
             Direccion = "";
-            Estado = LibEntidades.Constante._ESTADO_INACTIVO;
+            Estado = LibEntidades.Constante._ESTADO_ACTIVO;
         }
         public Cliente(Cliente cliente)
         {
             cargar(cliente.obtenerDiccionario());
+        }
+        public Cliente(Dictionary<string, object> d)
+        {
+            cargar(d);
         }
 
         public override Dictionary<string, object> obtenerDiccionario()
@@ -56,6 +60,11 @@ namespace LibFacturacion
             Estado = datos["Estado"].ToString();
         }
 
-        
+        public override Dictionary<string, object> obtenerDiccionarioPK()
+        {
+            Dictionary<string, object> d = new Dictionary<string, object>();
+            d.Add("Nit", Nit);
+            return d;
+        }
     }
 }

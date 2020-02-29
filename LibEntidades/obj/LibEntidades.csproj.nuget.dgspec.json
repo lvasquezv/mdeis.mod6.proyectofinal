@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj": {}
+    "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj": {
+    "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj",
         "projectName": "LibEntidades",
-        "projectPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\LibEntidades.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\source\\repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\Source\\Repos\\lvasquezv\\mdeis.mod6.proyectofinal\\LibEntidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

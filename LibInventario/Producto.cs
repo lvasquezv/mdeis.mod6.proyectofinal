@@ -13,6 +13,21 @@ namespace LibInventario
 
         public override string NombreEntidad => "Producto";
 
+        public Producto()
+        {
+            Codigo = "";
+            Nombre = "";
+            Descripcion = "";
+            PrecioReferencial = 0;
+        }
+        public Producto(Producto p)
+        {
+            cargar(p.obtenerDiccionario());
+        }
+        public Producto(Dictionary<string, object> datos)
+        {
+            cargar(datos);
+        }
 
         public override Dictionary<string, object> obtenerDiccionario()
         {
@@ -33,6 +48,14 @@ namespace LibInventario
             Nombre = datos["Nombre"].ToString();
             Descripcion = datos["Descripcion"].ToString();
             PrecioReferencial = float.Parse(datos["PrecioReferencial"].ToString());
+        }
+
+        public override Dictionary<string, object> obtenerDiccionarioPK()
+        {
+            Dictionary<string, object> d = new Dictionary<string, object>();
+            d.Add("Codigo", Codigo);
+            
+            return d;
         }
     }
 }

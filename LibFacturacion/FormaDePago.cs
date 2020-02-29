@@ -14,6 +14,21 @@ namespace LibFacturacion
 
         public override string NombreEntidad => "FormaDePago";
 
+        public FormaDePago()
+        {
+            Codigo = "";
+            Nombre = "";
+            Direccion = "";
+            Estado = LibEntidades.Constante._ESTADO_ACTIVO;
+        }
+        public FormaDePago(FormaDePago formaDePago)
+        {
+            cargar(formaDePago.obtenerDiccionario());
+        }
+        public FormaDePago(Dictionary<string, object> datos)
+        {
+            cargar(datos);
+        }
 
         public override Dictionary<string, object> obtenerDiccionario()
         {
@@ -34,6 +49,11 @@ namespace LibFacturacion
             Nombre = datos["Nombre"].ToString();
             Direccion = datos["Direccion"].ToString();
             Estado = datos["Estado"].ToString();
+        }
+
+        public override Dictionary<string, object> obtenerDiccionarioPK()
+        {
+            throw new NotImplementedException();
         }
     }
 }

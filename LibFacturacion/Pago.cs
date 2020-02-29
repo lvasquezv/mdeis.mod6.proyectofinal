@@ -17,6 +17,24 @@ namespace LibFacturacion
 
         public override string NombreEntidad => "Pago";
 
+        public Pago()
+        {
+            Cliente = new Cliente();
+            Factura = new Factura();
+            FormaDePago = new FormaDePago();
+            Fecha = DateTime.Now;
+            Monto = 0;
+            FechaVencimiento = DateTime.Now;
+            Estado = LibEntidades.Constante._ESTADO_ACTIVO;
+        }
+        public Pago(Pago pago)
+        {
+
+        }
+        public Pago(Dictionary<string, object> datos)
+        {
+            cargar(datos);
+        }
 
         public override Dictionary<string, object> obtenerDiccionario()
         {
@@ -44,20 +62,30 @@ namespace LibFacturacion
         {
             Dictionary<string, object> dcliente = new Dictionary<string, object>();
             dcliente.Add("Nit", int.Parse(datos["Cliente"].ToString()));
-            Cliente = (Cliente) GestorPersistencia.Persistencia().obtener(Cliente.NombreEntidad,dcliente);
+            List<Dictionary<string, object>> listaCliente = GestorPersistencia.Persistencia().obtener(Cliente.NombreEntidad, dcliente);
+            Dictionary<string, object>[] arrayCliente = listaCliente.ToArray();
+            Cliente = new Cliente(arrayCliente[0]);
 
             Dictionary<string, object> dfactura = new Dictionary<string, object>();
             dfactura.Add("CodigoControl", datos["Factura"].ToString());
-            Factura = (Factura)GestorPersistencia.Persistencia().obtener(Factura.NombreEntidad, dfactura);
+            Factura = new Factura(((Dictionary<string, object>[])GestorPersistencia.Persistencia().obtener(Factura.NombreEntidad, dfactura).ToArray())[0]);
 
             Dictionary<string, object> dformadepago = new Dictionary<string, object>();
             dformadepago.Add("Codigo", int.Parse(datos["FormaDePago"].ToString()));
-            FormaDePago = (FormaDePago)GestorPersistencia.Persistencia().obtener(FormaDePago.NombreEntidad, dformadepago);
+            FormaDePago = new FormaDePago(((Dictionary<string, object>[])GestorPersistencia.Persistencia().obtener(FormaDePago.NombreEntidad, dformadepago).ToArray())[0]);
 
             Fecha = DateTime.Parse(datos["Fecha"].ToString());
             Monto = float.Parse(datos["Monto"].ToString());
             FechaVencimiento = DateTime.Parse(datos["FechaVencimiento"].ToString());
             Estado = datos["Estado"].ToString();
+        }
+
+        public override Dictionary<string, object> obtenerDiccionarioPK()
+        {
+            Dictionary<string, object> d = new Dictionary<string, object>();
+            d.Add("Cliente", Cliente.Nit);
+            d.Add("Factura", Factura.CodigoControl);            
+            return d;
         }
     }
 }
