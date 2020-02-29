@@ -24,7 +24,7 @@ namespace LibEntidades.Persistencia
             string rutaFichero = Path.Combine(_carpeta, e.NombreEntidad + ".dat");
             string rutaFicheroTemp = Path.Combine(_carpeta, e.NombreEntidad + "Temp" + ".dat");
             if (!File.Exists(rutaFichero))
-                File.Create(rutaFichero);
+                File.Create(rutaFichero).Close();
             else
             {                
                 using (StreamWriter fileWrite = new StreamWriter(@rutaFicheroTemp))
@@ -51,7 +51,7 @@ namespace LibEntidades.Persistencia
         {            
             string rutaFichero = Path.Combine(_carpeta, e.NombreEntidad + ".dat");
             if (!File.Exists(rutaFichero))
-                File.Create(rutaFichero);
+                File.Create(rutaFichero).Close();
             else
             {
                 bool b = false;
@@ -78,7 +78,7 @@ namespace LibEntidades.Persistencia
             {
                 string rutaFichero = Path.Combine(_carpeta, e.NombreEntidad + ".dat");
                 if (!File.Exists(rutaFichero))
-                    File.Create(rutaFichero);
+                    File.Create(rutaFichero).Close();
 
                 StreamWriter fichero;
                 fichero = File.AppendText(rutaFichero);
@@ -93,7 +93,7 @@ namespace LibEntidades.Persistencia
             string rutaFichero = Path.Combine(_carpeta, e.NombreEntidad + ".dat");
             string rutaFicheroTemp = Path.Combine(_carpeta, e.NombreEntidad + "Temp" + ".dat");
             if (!File.Exists(rutaFichero))
-                File.Create(rutaFichero);
+                File.Create(rutaFichero).Close();
             else
             {
                 using (StreamWriter fileWrite = new StreamWriter(@rutaFicheroTemp))
@@ -132,7 +132,7 @@ namespace LibEntidades.Persistencia
             List<Dictionary<string, object>> lista = new List<Dictionary<string, object>>();
             string rutaFichero = Path.Combine(_carpeta,nombreEntidad + ".dat");
             if (!File.Exists(rutaFichero))
-                File.Create(rutaFichero);
+                File.Create(rutaFichero).Close();
             else
             {
                 using (StreamReader fielRead = new StreamReader(@rutaFichero))
@@ -163,7 +163,7 @@ namespace LibEntidades.Persistencia
             List<Dictionary<string, object>> lista = new List<Dictionary<string, object>>();
             string rutaFichero = Path.Combine(_carpeta, nombreEntidad + ".dat");
             if (!File.Exists(rutaFichero))
-                File.Create(rutaFichero);
+                File.Create(rutaFichero).Close();
             else
             {
                 using (StreamReader fielRead = new StreamReader(@rutaFichero))
